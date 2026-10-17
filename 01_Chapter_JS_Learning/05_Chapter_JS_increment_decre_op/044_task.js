@@ -21,5 +21,5 @@ console.log(b, a); //2, 3 */
 
 
 let i = 1; 
-let r = i++ > 1 ? i++ : ++i;  // 1>1 = ++i =3
+let r = i++ > 1 ? i++ : ++i;  // 1>1 (flase)= ++i =2+1 = 3
 console.log(r, i); // 3, 3

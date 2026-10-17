@@ -4,30 +4,40 @@
   <img src="./images/playwright-ai-learning-banner.svg" alt="Playwright AI Learning banner" width="1100" />
 </p>
 
-This repository is a hands-on learning workspace for JavaScript fundamentals, AI prompt design, and QA automation thinking. It combines beginner-level JavaScript exercises with prompt-engineering patterns that improve how AI assists with testing, scripting, and problem solving.
+A hands-on learning repository for JavaScript fundamentals, prompt engineering, and QA automation thinking. This project is designed for learners who want to build a stronger foundation in coding logic, structured AI prompting, and practical problem solving for Playwright-based testing workflows.
+
+## Overview
+
+This repository combines:
+
+- JavaScript practice from beginner to intermediate level
+- Structured prompt engineering patterns for AI assistants
+- Anti-hallucination techniques for better QA and automation output
+- Real-world thinking around testing, logic, and validation
+
+The goal is not to create a production app, but to help build real understanding. Learners work through code examples, logic exercises, and reusable prompt techniques before moving into automation and QA work.
 
 ## Why this repository exists
 
-The goal is to build a practical foundation in:
+The project supports learning in the following areas:
 
 - JavaScript basics and syntax
 - Variables, keywords, identifiers, and comments
 - Literals and data types
 - Operators and decision logic
-- Increment/decrement behavior and nullish coalescing
-- Structured prompt engineering for AI tools
-- Anti-hallucination practices in development and testing
-- Better thinking for QA automation and Playwright-based workflows
-
-This project is intentionally learning-focused rather than a production app.
+- If/else, switch, and loop structures
+- Increment/decrement and nullish coalescing
+- Structured RICE-POT style prompting for AI tools
+- Anti-hallucination habits in coding and testing
+- Better QA problem-solving and Playwright readiness
 
 ## Learning roadmap
 
 <p align="center">
-  <img src="./images/js-learning-roadmap.svg" alt="Learning roadmap diagram" width="1100" />
+  <img src="./images/js-learning-roadmap.svg" alt="JavaScript and AI learning roadmap" width="1100" />
 </p>
 
-## Repository structure
+## Project structure
 
 ```text
 Playwright-AI-Learning-1/
@@ -78,16 +88,54 @@ Playwright-AI-Learning-1/
 │   │   ├── 034_Nested_ternary_part2.js
 │   │   ├── 035_nested_ternary_ope_part3.js
 │   │   └── 036_typeOf.js
-│   └── 05_Chapter_JS_increment_decre_op/
-│       ├── 037_Post_Increment_operator.js
-│       ├── 038_Pre_increment_operator.js
-│       ├── 039_Practice_exercise.js
-│       ├── 040_practice_ex2.js
-│       ├── 041_Practice_ex3.js
-│       ├── 042_pre_decrement.js
-│       ├── 043_post_decrement.js
-│       ├── 044_task.js
-│       └── 045_nullish_coalescing_operator.js
+│   ├── 05_Chapter_JS_increment_decre_op/
+│   │   ├── 037_Post_Increment_operator.js
+│   │   ├── 038_Pre_increment_operator.js
+│   │   ├── 039_Practice_exercise.js
+│   │   ├── 040_practice_ex2.js
+│   │   ├── 041_Practice_ex3.js
+│   │   ├── 042_pre_decrement.js
+│   │   ├── 043_post_decrement.js
+│   │   ├── 044_task.js
+│   │   └── 045_nullish_coalescing_operator.js
+│   ├── 06_Chapter_If_else_statement_condition/
+│   │   ├── 046_If.js
+│   │   ├── 047_if_else_nested.js
+│   │   ├── 048_Ternaryoperator_vs_ifelse.js
+│   │   └── 049_Multiple_ifelse.js
+│   ├── 07_Chapter_Switch/
+│   │   ├── 050_Switch.js
+│   │   ├── 051_Switch_without_break_statement.js
+│   │   ├── 052_Switch_IQ.js
+│   │   ├── 053_Switch_API_code.js
+│   │   ├── 054_Switch_Group_Statements.js
+│   │   ├── 055_Switch_IQ2.js
+│   │   ├── 056_Switch_IQ3.js
+│   │   ├── 057_Switch_IQ4.js
+│   │   ├── 058_Switch_IQ5.js
+│   ├── 08_Chapter_UserInput/
+│   │   ├── 059_UI.js
+│   │   ├── 060_Node_UI.js
+│   │   ├── 061_Prompt_Sync.js
+│   │   └── 062_FS_readfile.js
+│   ├── 09_Chapter_Loops/
+│   │   ├── 063_Loops.js
+│   │   ├── 064_For_loop.js
+│   │   ├── 065_For_loop_ex2.js
+│   │   ├── 066_For_loop_Decrement.js
+│   │   ├── 067_For_loop_lateralscenario.js
+│   │   ├── 068_For_loop_without_condition.js
+│   │   └── 069_For_loop_with_ifelse.js
+│   ├── 10_Chapter_While_Loop/
+│   │   ├── 070_While_Loop.js
+│   │   ├── 071_While_Loops_Ex2.js
+│   │   ├── 072_While_Loop_Ex3.js
+│   │   └── 073_While_Loop_With_ifelse.js
+│   └── 11_Chapter_Loops_DoWhile/
+│       ├── 074_DoWhile.js
+│       ├── 075_DoWhile_IQ.js
+│       ├── 076_Nested_For_Loop.js
+│       └── 077_IQ.js
 ├── images/
 │   ├── playwright-ai-learning-banner.svg
 │   └── js-learning-roadmap.svg
@@ -95,49 +143,40 @@ Playwright-AI-Learning-1/
 └── .git/
 ```
 
-## Module 1: Prompt engineering
+## Core learning modules
 
-This section contains structured prompt-learning documents such as:
+### 1. Prompt engineering
 
-- `RICE-POT` framework for writing more reliable AI instructions
-- problem statement framing for QA and automation tasks
-- anti-hallucination guidance for avoiding fake APIs, inaccurate methods, or broken assumptions
-- reusable QA prompt templates for planning, validation, and execution
+This part focuses on structured prompt design using the RICE-POT framework and other AI-assisted QA thinking patterns.
 
-### RICE-POT mindset
+Included materials:
 
-The repository emphasizes these prompt-building ideas:
+- `RICE-POT` framework for writing robust prompts
+- problem statement design for QA and automation tasks
+- anti-hallucination guidance
+- reusable QA prompt templates
 
-- Role: define the persona or job of the AI
-- Instructions: give precise tasks and constraints
-- Context: include environment, project state, and requirements
-- Example: show sample inputs or expected output
-- Parameters: specify versions, tools, and boundaries
-- Output: define the exact structure required
-- Tone: keep the response professional and clear
+Key ideas:
 
-### Anti-hallucination practices
+- Role: define the persona and expertise
+- Instructions: give clear and specific rules
+- Context: include the actual environment and constraints
+- Example: provide a sample structure or expected output
+- Parameters: define versions, boundaries, and limitations
+- Output: define the exact response format
+- Tone: keep communication precise and professional
 
-The learning material is designed to help avoid common mistakes such as:
+### 2. JavaScript basics
 
-- inventing APIs or methods that do not exist
-- assuming frameworks or syntax without verification
-- skipping constraints that reduce ambiguity
-- generating code without checking its correctness against real libraries
+This section introduces the foundations of JavaScript:
 
-These ideas are especially useful for QA automation because generated tests can fail silently when assumptions are weak.
-
-## Module 2: JavaScript basics
-
-The first chapter covers the core building blocks of JavaScript:
-
-- `console.log()` for output
-- arithmetic expressions and calculations
-- JavaScript engine basics and runtime behavior
+- `console.log()` and code execution
+- arithmetic and expressions
+- JavaScript engine and runtime behavior
 - `let`, `var`, and `const`
-- valid and invalid identifiers
-- naming conventions and keywords
-- comments and code readability
+- keywords and identifiers
+- comments and code clarity
+- literals and values
 
 Example:
 
@@ -148,17 +187,17 @@ const c = 23;
 console.log(age, a, c);
 ```
 
-## Module 3: JavaScript literals
+### 3. Literals and data types
 
-The literals chapter introduces fixed values written directly in code, including:
+The project covers values written directly in code, including:
 
 - number literals
 - string literals
 - boolean literals
 - `null` and `undefined`
-- special values and type-related checks
+- typeof checks and special values
 
-Examples:
+Example:
 
 ```js
 let num = 42;
@@ -168,81 +207,75 @@ let emptyValue = null;
 let notAssigned;
 ```
 
-Important understanding:
+### 4. Operators and decision logic
 
-- `undefined` means a variable was declared but has no value
-- `null` means the value is intentionally empty
-- `typeof null` is historically `"object"`, which is a JavaScript quirk
+Topics include:
 
-## Module 4: JavaScript operators
-
-This chapter includes operator practice for:
-
-- assignment
-- arithmetic
-- comparison
-- logical operations
-- ternary expressions
+- arithmetic operators
+- assignment operators
+- comparison and logical operators
+- ternary operators
 - template literals
-- type checks
+- nested conditionals
+- strict vs loose comparison
 
-### Common operator examples
-
-```js
-let a = 10;
-a = a + 9;
-
-console.log(10 > 5);       // true
-console.log("10" === 10); // false
-console.log(true && false); // false
-console.log(true || false); // true
-```
-
-A central learning point is that loose comparison can be surprising:
+Example:
 
 ```js
-console.log("10" == 10); // true
-console.log("" == 0);   // true
-console.log(0 == "");  // true
+console.log(10 > 5);        // true
+console.log("10" === 10);   // false
+console.log(true && false);  // false
+console.log(true || false);  // true
 ```
 
-The repository encourages safer usage of strict equality (`===`) whenever possible.
+### 5. Conditions, switches, and user input
 
-## Module 5: Increment/decrement and nullish coalescing
+This section adds real logic flow to JavaScript fundamentals:
 
-The final JS learning section introduces:
+- `if` / `else` statements
+- nested conditions
+- switch statements
+- user input handling
+- reading input and files from Node.js
 
-- pre-increment and post-increment
-- pre-decrement and post-decrement
-- practice exercises with value updates
-- nullish coalescing operator (`??`)
+### 6. Loops and iteration
 
-Nullish coalescing is useful when you want to fallback only for `null` or `undefined` values, not for other falsy values like `0`, `false`, or empty strings.
+The project also covers the major loop patterns:
+
+- `for` loops
+- `while` loops
+- `do...while` loops
+- loop exercises with conditions
+- nested patterns and practical scenarios
+
+Example:
 
 ```js
-let userName = null;
-let displayName = userName ?? "Guest";
-console.log(displayName); // Guest
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
 ```
 
-This matches the repository example:
+### 7. Advanced learning mindset
 
-```js
-let amul = "null";
-let val = amul ?? "dairy Milk";
-console.log(val);
-```
+Later chapters move toward habits needed for QA automation and AI-assisted development:
+
+- verifying assumptions before coding
+- avoiding hallucinated APIs or methods
+- writing clear, testable logic
+- thinking about edge cases and failure states
+- preparing for Playwright project automation work
 
 ## Key learning outcomes
 
-By the end of this project, the learner should be able to:
+By the end of this project, a learner should be able to:
 
-- read and write JavaScript syntax confidently
-- understand core language rules and operator behavior
-- reason about type comparisons and logic
-- apply structured prompting for AI-assisted QA tasks
-- reduce hallucination by asking for evidence and verification
-- prepare for Playwright automation and more advanced QA work
+- write and understand JavaScript syntax more confidently
+- reason through logic and control flow
+- work with data types and operators safely
+- build better prompts for AI tools and QA tasks
+- reduce hallucinated output by checking evidence and constraints
+- prepare for Playwright automation, test design, and browser-based QA work
 
 ## How to run the JavaScript files
 
@@ -252,27 +285,31 @@ Use Node.js from the terminal:
 node 01_Chapter_JS_Learning/01_Chapter_JS_Basics/001_HelloWorld.js
 ```
 
-You can run any file in the same way by pointing Node to the relevant `.js` script.
+You can run any other `.js` file in the same way by pointing Node to the script file.
 
 ## Suggested learning path
 
-1. Start with the basics chapter and understand `console.log()` and arithmetic.
-2. Move to keywords, identifiers, and comments.
-3. Practice literals and type behavior.
-4. Work through operators, ternary logic, and template literals.
-5. Study increment/decrement and later nullish coalescing.
-6. Apply the prompt engineering ideas to AI-assisted coding and QA tasks.
+1. Start with JavaScript basics and arithmetic.
+2. Move into keywords, identifiers, and comments.
+3. Practice literals and data types.
+4. Work through operators, conditional statements, and ternary logic.
+5. Study loops and user input patterns.
+6. Apply the prompt-engineering ideas to AI-assisted QA and automation work.
 
 ## Why this project matters
 
-This repository helps build a strong foundation for:
+This repository helps learners build a strong base for:
 
-- understanding code structure
-- writing clearer JavaScript
-- designing better prompts for AI tools
-- checking AI-generated output critically
-- preparing for Playwright, test automation, and QA workflows
+- understanding code structure and logic flow
+- writing cleaner JavaScript
+- prompting AI tools more effectively
+- validating AI-generated output critically
+- preparing for Playwright, test automation, and modern QA workflows
 
 ## Summary
 
-This project blends JavaScript fundamentals with practical prompt-engineering concepts. It is a beginner-friendly learning workspace that supports writing cleaner code, reasoning through logic, and designing more reliable AI-driven automation prompts without relying on weak assumptions or hallucinated API knowledge.
+This is a beginner-friendly learning workspace that blends JavaScript fundamentals with practical prompt-engineering concepts. It is useful for learners who want to improve both coding logic and AI-assisted problem-solving, with a clear path toward QA automation and Playwright-based testing.
+
+<p align="center">
+  <img src="./images/playwright-ai-learning-banner.svg" alt="Playwright AI learning banner" width="1000" />
+</p>
